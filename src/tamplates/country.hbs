@@ -1,12 +1,12 @@
 <li>
-  <h1>${name}</h1>
-  <img src='' alt='' />
-  <p>Capital: ${Capital}</p>
-  <p>Population: &{Population}</p>
+  <h1>{{name}}</h1>
+  <img src='{{flag}}' alt='{{name}}' />
+  <p>Capital: {{capital}}</p>
+  <p>Population: {{population}}</p>
   <p>Languages:</p>
   <ul>
     {{#each this}}
-    <li>${Languages}</li>
+    <li>{{name}}</li>
     {{/each}}
   </ul>
 </li>
